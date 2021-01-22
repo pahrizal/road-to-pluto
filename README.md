@@ -1,46 +1,17 @@
-# Getting Started with Create React App
+## 1. Front-end
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Problem statement
 
-## Available Scripts
+Sometimes it is easier for decision-makers to analyze data in list format as opposed to a map format. Hence, it's important to have a seamless list-view of the road stretches and their condition. 
 
-In the project directory, you can run:
+### Task description
 
-### `yarn start`
+Build a simple table using Material UI, React, Redux, and Typescript. The table should be able to manage different filters through state management. These are the minimum filters:
+`roadname (string)`, `type (categorical)`, `parcelId (numerical)`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- For `roadname` use a simple search bar and possible some `pill designs` to keep track and easy remove what has already been selected.
+- For `type` use a simple dropdown to filter between the possible categorical values.
+- For `parcelId` use another dropdown to filter between the possible values.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Use Material UI to get a design that looks like this:
+<img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F02721488-8845-4817-82fe-d3398a98aa36%2FUntitled.png?table=block&id=6292ae83-18ea-4e43-8f3b-59b5c330b2d4&width=1740&userId=&cache=v2">
